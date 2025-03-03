@@ -66,7 +66,7 @@ At the same time, many clients need **small-scale tasks** done but find **expert
 - **Miners review the case** and distribute escrowed funds **fairly**.
 
 ## **Live Demo**
-[Watch the demo] https://drive.google.com/file/d/1CK9g_RvJqqsY7bjTndKcKZJdZA2fPQrT/view?usp=sharing
+[Watch the demo] (https://drive.google.com/file/d/1CK9g_RvJqqsY7bjTndKcKZJdZA2fPQrT/view?usp=sharing)
 
 
 ## 🚀 Setup & Deployment
