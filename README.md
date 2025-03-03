@@ -73,6 +73,7 @@ At the same time, many clients need **small-scale tasks** done but find **expert
 ```bash
 git clone https://github.com/Vaishnavi024/Delance-Dapp.git
 cd Delance-Dapp
+``` 
  ### **2️⃣ Install Dependencies in the Root Directory**
 ```bash
 npm install
