@@ -1,0 +1,141 @@
+/* global css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import font  */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.glass-white {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+  border-radius: 15px; /* Smooth corners */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Depth effect */
+  padding: 20px; /* Add padding inside */
+  margin-bottom: 20px; /* Spacing below */
+}
+
+
+:root {
+  --background: #121212; /* Dark background */
+  --foreground: #ffffff; /* White text */
+  --input-bg: #ffffff; /* White input background */
+  --input-text: #000000; /* Black input text */
+  --button-bg: #ff5722; /* Bright button background */
+  --button-text: #ffffff; /* Button text color */
+}
+
+/* Keyframes for the Gradient Animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  position: relative;
+  background: linear-gradient(45deg,#08b7ba, #49089f, #240046, #000000);
+  background-size: 200% 200%;
+  animation: gradientAnimation 9s ease infinite;
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  animation: float 8s infinite ease-in-out;
+  opacity: 0.7;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-20px) translateX(10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) translateX(-10px);
+    opacity: 0.5;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "'Space Grotesk', sans-serif",
+}
+
+input {
+  background-color: #ffffff; 
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+input:hover,
+input:focus {
+  box-shadow: 0 0 5px rgba(84, 32, 138, 0.5); /* Purple shadow */
+  border-color: #54208a; 
+}
+
+
+.spinner {
+  display: inline-block;
+  width: 16px; /* Adjust size to fit buttons */
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Light border matches theme */
+  border-top-color: var(--button-text); /* Foreground color for contrast */
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+button {
+  
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  gap: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: unset; /* Keeps the inline hover styling intact */
+  transform: unset;
+}
+
+h1, h3, p {
+  color: var(--foreground);
+}
