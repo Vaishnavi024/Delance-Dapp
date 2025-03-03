@@ -33,7 +33,6 @@ At the same time, many clients need **small-scale tasks** done but find **expert
 - **Metamask Wallet Authentication**
 
 ### **Backend**
-- **IPFS** (Decentralized Storage for Portfolios)
 - **Node.js & Express.js** (API for additional features)
 
 ---
