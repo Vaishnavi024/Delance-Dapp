@@ -67,6 +67,7 @@ At the same time, many clients need **small-scale tasks** done but find **expert
 
 ## **Live Demo**
 [![Watch the video] (https://github.com/Vaishnavi024/Delance-Dapp/blob/main/Delance%20Dapp%20vid.mp4)]
+[![ Watch the demo] (https://github.com/user-attachments/assets/1f32bc54-8a06-452a-bd44-b27b029e5aec)]
 
 ## 🚀 Setup & Deployment
 
