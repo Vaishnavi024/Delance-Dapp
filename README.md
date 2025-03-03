@@ -66,7 +66,7 @@ At the same time, many clients need **small-scale tasks** done but find **expert
 - **Miners review the case** and distribute escrowed funds **fairly**.
 
 ## **Live Demo**
-[![Watch the video] (https://github.com/Vaishnavi024/Delance-Dapp/blob/main/Delance%20Dapp%20vid.mp4)
+[![Watch the video] (https://github.com/Vaishnavi024/Delance-Dapp/blob/main/Delance%20Dapp%20vid.mp4)]
 
 ## 🚀 Setup & Deployment
 
