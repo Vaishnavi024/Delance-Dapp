@@ -66,3 +66,26 @@ At the same time, many clients need **small-scale tasks** done but find **expert
 - **Miners review the case** and distribute escrowed funds **fairly**.
 
 ## **Live Demo**
+
+## 🚀 Setup & Deployment
+
+### **1️⃣ Clone the Repository**
+```bash
+git clone https://github.com/Vaishnavi024/Delance-Dapp.git
+cd Delance-Dapp
+ ### **2️⃣ Install Dependencies in the Root Directory**
+```bash
+npm install
+ ### **3️⃣ Navigate to the Frontend Directory**
+```bash
+cd delance-frontend
+ ### **4️⃣ Install Frontend Dependencies**
+```bash
+npm install
+ ### **5️⃣ Start the Frontend Server**
+```bash
+npm run dev
+
+
+
+
